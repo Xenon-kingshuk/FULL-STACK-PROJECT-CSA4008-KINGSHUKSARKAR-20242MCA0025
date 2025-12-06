@@ -1,0 +1,112 @@
+:root {
+    --bg-color: #0f0f0f;
+    --text-color: #e0ffe0;
+    --neon-green: #39ff14;
+    --card-bg: #1a1a1a;
+    --border-color: #39ff1470;
+    --accent: #39ff14;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+}
+
+.content {
+    width: 100vw;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.sb-footer {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--card-bg);
+    border-top: 1px solid var(--border-color);
+    color: var(--neon-green);
+}
+
+.post-card {
+    max-width: 30rem;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px var(--neon-green);
+    padding: 1.5rem;
+    margin: 1rem auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px var(--neon-green);
+}
+
+.create-post {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    box-shadow: 0 0 8px var(--neon-green);
+    transition: box-shadow 0.3s ease;
+}
+
+.create-post input,
+.create-post textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    background: #faf7f7;
+    color: green;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+}
+
+.create-post button {
+    margin-top: 1rem;
+    background-color: var(--neon-green);
+    color: #000;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.create-post button:hover {
+    background-color: #00e600;
+    color: #000;
+}
+.post-card input.form-control {
+  background-color: #121212;
+  color: #e0ffe0;
+  border: 1px solid var(--accent-color);
+}
+
+.post-card .btn-outline-success {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.post-card .btn-outline-success:hover {
+  background-color: var(--accent-color);
+  color: black;
+}
+.card-title {
+  color: #fafaf8; /* Change to your desired color */
+}
