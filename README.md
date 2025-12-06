@@ -1,4 +1,4 @@
-# Vibes – Mini Social Media App
+<img width="1919" height="1079" alt="Screenshot 2025-07-10 233746" src="https://github.com/user-attachments/assets/5dc50f16-85f5-4a14-965c-3db30bd497e4" /># Vibes – Mini Social Media App
 
 A React + Vite powered mini social media application where users can register, log in, and share posts with titles, content, hashtags, and optional images. The app uses Firebase Authentication and React Context for managing post state.
 
@@ -309,10 +309,14 @@ If you want, I can also tweak this README to match any specific college/assignme
 
 
 Preview Of Project -
-<img width="1919" height="1079" alt="Screenshot 2025-07-10 233746" src="https://github.com/user-attachments/assets/7d85cf54-71b4-4c3c-8b42-bc8ff5d3b018" />
-<img width="1896" height="1079" alt="Screenshot 2025-07-10 233723" src="https://github.com/user-attachments/assets/4ad379d5-184e-4bab-a636-0853dff73fda" />
-<img width="1899" height="1079" alt="Screenshot 2025-07-10 233419" src="https://github.com/user-attachments/assets/29b19fe5-db59-46fe-abca-d5fb7ec0c22d" />
-<img width="1916" height="964" alt="Screenshot 2025-07-10 230146" src="https://github.com/user-attachments/assets/c4793041-b8dc-4e2d-b9f3-780304858a67" />
+
+
+<img width="1919" height="1079" alt="Screenshot 2025-07-10 233746" src="https://github.com/user-attachments/assets/f96a63ca-ff53-4e4d-87c6-165751fcffbd" />
+<img width="1896" height="1079" alt="Screenshot 2025-07-10 233723" src="https://github.com/user-attachments/assets/7e426933-c6f0-46db-b294-38f3189fb7bb" />
+<img width="1899" height="1079" alt="Screenshot 2025-07-10 233419" src="https://github.com/user-attachments/assets/438ab5dc-3145-4ba4-92a0-1c940882a9a4" />
+<img width="1916" height="964" alt="Screenshot 2025-07-10 230146" src="https://github.com/user-attachments/assets/d03bce2e-5228-45b4-85fd-afdbdbf6fe38" />
+
+
 
 
 
